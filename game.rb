@@ -35,7 +35,7 @@ class Game
 
         if  result == answer
             puts "Yeah you got it!"
-            puts "(>‿◠)✌"
+            puts "( > ‿ ◠ )✌"
             puts "#{@player1.name}: #{@player1.life}/3 vs #{@player2.name}: #{@player2.life}/3"
             @current_turn +=1
             self.start
